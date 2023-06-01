@@ -1,11 +1,93 @@
+@import 'base';
 
+.principal {
+    width: 90%;
+    margin: 35px 0 30px 50px;
+    display: flex;
+    border-bottom: 1px hsl(220, 14%, 75%) solid;
+}
+
+.logo{
+    border-color: red;
+    margin-right: 40px;
+}
 
 .menu {
-    a{
-        font-family: 'Kumbh Sans', sans-serif;
-        color: red;
-        background-color: blue($color: #000000);
+    
+    ul{
+       display: flex;
     }
+
+    li{
+        list-style: none;
+        margin-right: 25px;
+        margin-bottom: 30px;     
+    }
+
+    a{
+       
+        text-decoration: none;
+        color:hsl(0, 0%, 0%);
+        font-size: x-small;
+        font-weight: 300;
+        &:hover{
+        
+            border-bottom: 2px solid hsl(26, 100%, 55%);
+            padding: 0px 0px 30px 0px;    
+        }   
+    }
+
+}
+.carrinho {
+    width: 2%;
+    margin-left: 300px; 
+}
+
+.avatar {
+    width: 3%;
+    margin-left: 50px;
+    margin-top: -11px;
     
+    &:hover{ 
+        width: 4%;  
+    }
+}
+
+.produto {
+    width: 20em;
+    margin: 60px 0 0 150px;
+   
+
+    img{
+        border-radius: 8px ;
+    }
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+
+    .miniaturas {
+    margin-top: 12px;
+    width: 4em;
+
+    &:hover{
+        opacity: 0.3;
+    }
+    }
+}
+
+.descricao{
+   float: right;
+    justify-content: space-around;
+        align-items: center;
     
+}
 }
