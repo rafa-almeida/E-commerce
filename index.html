@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"             
   rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/image-product-4-thumbnail.jpg">
   <title>E-commerce product page</title>  
 </head>
@@ -50,23 +51,23 @@
   <section class="produto">
     <div class="container1">
       <div>
-        <img width="100%" src="images/image-product-1.jpg" alt="tennis Sneakers">
+        <img id="trocaimagem" width="100%" src="images/image-product-1.jpg" alt="tennis Sneakers">
       </div>
       <div class="container2">
       <div class="miniaturas">
-        <img width="100%" src="images/image-product-1-thumbnail.jpg" alt="tennis Sneakers fotos">
+        <img onclick="trocar()"href= "#" width="100%" src="images/image-product-1-thumbnail.jpg" alt="tennis Sneakers fotos">
       </div>
 
       <div class="miniaturas">
-        <img width="100%" src="images/image-product-2-thumbnail.jpg" alt="tennis Sneakers fotos">
+        <img onclick="trocar()"href= "#" width="100%" src="images/image-product-2-thumbnail.jpg" alt="tennis Sneakers fotos">
       </div>
 
       <div class="miniaturas">
-        <img width="100%" src="images/image-product-3-thumbnail.jpg" alt="tennis Sneakers fotos">
+        <img onclick="trocar()"href= "#" width="100%" src="images/image-product-3-thumbnail.jpg" alt="tennis Sneakers fotos">
       </div>
 
       <div class="miniaturas">
-        <img width="100%" src="images/image-product-4-thumbnail.jpg" alt="tennis Sneakers fotos">
+        <img onclick="trocar()"href= "#" width="100%" src="images/image-product-4-thumbnail.jpg" alt="tennis Sneakers fotos">
       </div>
     </div>      
   </section>
@@ -94,7 +95,8 @@
       </div>
       
       <button class="add"> 
-        <img src="images/icon-cart.svg" alt="Adicionar no carrinho"> Adicionar no carrinho
+        <img src="images/icon-cart.svg" alt="Adicionar no carrinho"> 
+        <span>Adicionar no carrinho</span>
       </button>
     </div>
   </div>

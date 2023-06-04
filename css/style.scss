@@ -141,13 +141,31 @@
     }
 
     .add{
-        margin-right: 150px;
+        width: 260px;
+        padding: 5px;
+        border-radius: 7px;
+        margin: -10px 15px 0 0;
         float: right;
         background-color: hsl(26, 100%, 55%);
         text-align: center;
+
+        &:hover {
+           
+            
+            border-color: hsl(0, 0%, 100%)
+        }
+        img{
+            color: white;
+        }
+
+        span{
+            color: white;
+            font-family: 'Kumbh Sans', sans-serif;
+            font-size: small;
+            font-weight: bold;
+            
+        }
     }
-
-
 
     footer{
     font-size: small;
