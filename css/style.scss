@@ -1,185 +1,246 @@
 @import 'base';
 
 .principal {
-    width: 90%;
-    margin: 35px 0 30px 50px;
-    display: flex;
-    border-bottom: 1px hsl(220, 14%, 75%) solid;
+  width: 90%;
+  margin: 35px 0 30px 50px;
+  display: flex;
+  border-bottom: 1px hsl(220, 14%, 75%) solid;
 }
 
 .logo{
-    border-color: red;
-    margin-right: 40px;
+  margin-left: 25px;
+   
 }
 
-.menu {
-    
-    ul{
-       display: flex;
-    }
-
-    li{
-        list-style: none;
-        margin-right: 25px;
-        margin-bottom: 30px;     
-    }
-
-    a{
-       
-        text-decoration: none;
-        color:hsl(0, 0%, 0%);
-        font-size: small;
-        font-weight: 300;
-        &:hover{
-        
-            border-bottom: 2px solid hsl(26, 100%, 55%);
-            padding: 0px 0px 30px 0px;    
-        }   
-    }
-
-}
 .carrinho {
-    width: 2%;
-    margin-left: 480px; 
+  width: 2%;
+  margin-left: 650px; 
+  margin-bottom: 14px;
+    
 }
 
 .avatar {
-    width: 3%;
-    margin-left: 30px;
-    margin-top: -11px;
+  width: 3%;
+  margin-left: 30px;
+  margin-top: -11px;
     
-    &:hover{ 
-        width: 4%;  
-    }
+    
+  &:hover{ 
+     width: 4%;  
+  }
 }
 
 .produto {
-    width: 20em;
-    margin: 60px 100px 0 150px;
-    float:left;
+  width: 20em;
+  margin: 60px 100px 0 150px;
+  float:left;
     
-    img{
-        border-radius: 8px ;
-    }
+  img{
+    border-radius: 8px ;
+  }
 
-    .container1{
-        width: 100%;
-    }
-    .container2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-end;
-    }
+  .container1{
+    width: 100%;
+  }
+  .container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-end;
+  }
     
-    .miniaturas {
+  .miniaturas {
     margin-top: 12px;
     width: 4em;
        
     &:hover{
         opacity: 0.3;
     }
-    
-}
+  }
 }
 
 .descricao {
-    width: 70%;
-   margin: 130px 90px 100px 100px;
+  width: 70%;
+  margin: 130px 90px 100px 100px;
    
        
-    h1{
-       margin-bottom: 20px;
-        font-style: italic;
+  h1{
+    margin-bottom: 20px;
+    font-style: italic;
         
-    }
+  }
 
-    h4 {
-        font-size: 13px;
-        color: hsl(26, 100%, 55%);
-        margin-bottom: 15px;
+  h4 {
+    font-size: 13px;
+    color: hsl(26, 100%, 55%);
+    margin-bottom: 15px;
         
-    }
+  }
 
-    p {
-        margin-bottom: 20px;
-        font-size: small;
-        text-align:justify;
+  p {
+    margin-bottom: 20px;
+    font-size: small;
+    text-align:justify;
         
-    }
+  }
 
-    .valor{
-        margin-right: 5px;
-        font-size: medium;
-        font-weight: bold;
-    }
+  .valor{
+    margin-right: 5px;
+    font-size: medium;
+    font-weight: bold;
+  }
 
-    .desc{
-        color: hsl(26, 100%, 55%);
-        font-weight: bold;
-        font-size: small;
-        background-color: hsl(25, 100%, 94%);
-        border-radius: 4px;
-    }
+  .desc{
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    font-size: small;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 4px;
+  }
 
-    .total{
-        text-decoration:line-through;
-        font-size: small;
-        font-weight: bold;
-        color: hsl(220, 14%, 75%);
+  .total{
+    text-decoration:line-through;
+    font-size: small;
+    font-weight: bold;
+    color: hsl(220, 14%, 75%);
         
-    }
+  }
     
 }
 
-    .contador{
-        width: 10%;
-        background-color: hsl(220, 14%, 75%);
-        float: left;
-    }
+.contador{
+  width: 10%;
+  background-color: hsl(220, 14%, 75%);
+  float: left;
 
-    .add{
-        width: 260px;
-        padding: 5px;
-        border-radius: 7px;
-        margin: -10px 15px 0 0;
-        float: right;
-        background-color: hsl(26, 100%, 55%);
-        text-align: center;
-
-        &:hover {
-           
-            
-            border-color: hsl(0, 0%, 100%)
-        }
-        img{
-            color: white;
-        }
-
-        span{
-            color: white;
-            font-family: 'Kumbh Sans', sans-serif;
-            font-size: small;
-            font-weight: bold;
-            
-        }
-    }
-
-    footer{
-    font-size: small;
-    margin-top: 200px;
+  .add{
+    width: 260px;
+    padding: 5px;
+    border-radius: 7px;
+    margin: -10px 15px 0 0;
+    float: right;
+    background-color: hsl(26, 100%, 55%);
     text-align: center;
 
+    &:hover {
+      background-color: hsl(26, 100%, 55%);
+    }
+    img{
+      color: white;
+    }
+  
+    span{
+      color: white;
+      font-family: 'Kumbh Sans', sans-serif;
+      font-size: small;
+      font-weight: bold;
+            
+    }
+  }
+}
+footer{
+  font-size: small;
+  margin-top: 200px;
+  text-align: center;
+  
     a{
         text-decoration: none;
     }
 }
 
-
-
-
-
-
+#menu {
+  z-index: 2;
+  }
+  
+  #menu-bar {
+    width: 40px;
+    height: 40px;
+    margin: 38px 0 20px 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color:  hsl(26, 100%, 55%);
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav {
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav ul {
+    padding: 0 22px;
+  }
+  
+  .nav li {
+    list-style: none;
+    padding: 8px 0;
+  }
+  
+  .nav li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle,  hsl(26, 100%, 55%),  hsl(26, 100%, 55%));
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%,-30%);
+}
 
